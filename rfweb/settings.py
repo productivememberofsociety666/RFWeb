@@ -30,7 +30,7 @@ DATABASES = {
         'USER': PROJECT_NAME,
         'PASSWORD': '123456',
         'NAME': PROJECT_NAME,
-        'HOST': 'qa-master',
+        'HOST': 'localhost',
         'PORT': '',
         'OPTIONS': {
                'init_command': 'SET storage_engine=MYISAM,character_set_connection=utf8,collation_connection=utf8_unicode_ci'

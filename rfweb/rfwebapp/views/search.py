@@ -2,7 +2,7 @@ from django.shortcuts import render_to_response
 from django import forms
 from django.db.models import Q
 
-from rfwebapp.models import Keyword
+from rfweb.rfwebapp.models import Keyword
 
 def search(request):
     search_performed = False

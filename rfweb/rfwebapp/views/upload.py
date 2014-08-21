@@ -6,7 +6,9 @@ from django.shortcuts import render_to_response
 from django import forms
 
 from rfweb.rfwebapp.forms import UploadFileForm
-from settings import SUITES_PATH 
+from django.conf import settings
+
+SUITES_PATH = settings.SUITES_PATH
 
 def upload(request):
     suitename = None
