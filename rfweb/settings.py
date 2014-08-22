@@ -115,6 +115,12 @@ INSTALLED_APPS = (
 
 STATIC_URL = '/static/'
 
+STATICFILES_FINDERS = (
+'django.contrib.staticfiles.finders.FileSystemFinder',
+'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+'dajaxice.finders.DajaxiceFinder'
+)
+
 import logging
 from logging.handlers import SysLogHandler
 
