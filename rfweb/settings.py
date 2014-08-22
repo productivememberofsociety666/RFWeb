@@ -113,6 +113,8 @@ INSTALLED_APPS = (
     'rfweb.rfwebapp'
 )
 
+STATIC_URL = '/static/'
+
 import logging
 from logging.handlers import SysLogHandler
 
